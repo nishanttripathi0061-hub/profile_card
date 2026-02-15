@@ -101,3 +101,8 @@ body{
         height:100px;
     }
 }
+
+.active{
+   background: linear-gradient( 135deg, #eaeaea, #8e60bc);
+}
+
