@@ -103,6 +103,25 @@ body{
 }
 
 .active{
-   background: linear-gradient( 135deg, #eaeaea, #8e60bc);
+   background: linear-gradient(135deg, #eaeaea, #8e60bc);
 }
 
+.btn{
+    margin-top: 15px;
+
+}
+
+.follow-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #7707e8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.follow-btn:active{
+    transform: translateY(2px);
+    transform: translateX(2px);
+}

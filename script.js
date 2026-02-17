@@ -15,3 +15,15 @@ profileCards.forEach(card => {
 });
 
 
+let followButtons = document.querySelectorAll(".follow-btn");
+followButtons.forEach(button => {
+    button.addEventListener("click", (e) => { if(button.innerText === "Follow"){
+        button.innerText = "Following";
+        button.style.backgroundColor = "#4CAF50";
+    } else {
+        button.innerText = "Follow";
+       button.style.backgroundColor = "#7707e8";
+    } 
+    });
+});
+
